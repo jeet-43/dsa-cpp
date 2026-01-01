@@ -1,5 +1,5 @@
 // Problem: Second Largest Element in an Array
-// Approach: Single traversal
+// Approach: One Pass Search
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 // Problem Link:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/second-largest3735
