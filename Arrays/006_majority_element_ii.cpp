@@ -3,7 +3,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 // Problem Link:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/majority-vote
-//https://leetcode.com/problems/majority-element-ii/description/
+              //https://leetcode.com/problems/majority-element-ii/description/
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
