@@ -3,7 +3,7 @@
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 // Problem Link:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/next-permutation5226
-//https://leetcode.com/problems/next-permutation/description/
+                      //https://leetcode.com/problems/next-permutation/description/
 
 class Solution {
 public:
