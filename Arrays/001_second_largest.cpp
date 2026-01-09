@@ -6,7 +6,6 @@
 
 
 int getSecondLargest(int *arr, int n) {
-    // code here
     int largest =-1,secondLargest=-1;
     for (int i=0;i<n;i++){
         if (arr[i]>largest){
