@@ -2,8 +2,8 @@
 // Approach: Cyclic Sort
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-// Problem Link:https:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/smallest-positive-missing-number-1587115621
-              //https://leetcode.com/problems/first-missing-positive/description/
+// Problem Link: https:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/smallest-positive-missing-number-1587115621
+              // https://leetcode.com/problems/first-missing-positive/description/
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
