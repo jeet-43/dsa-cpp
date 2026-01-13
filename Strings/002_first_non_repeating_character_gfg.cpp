@@ -1,7 +1,7 @@
 // Problem: first non repeating character
 // Approach: by storing indices (one traversal)
 // Time Complexity: O(n)
-// Space Complexity: O(1)
+// Space Complexity: O(MAX_CHAR)
 // Problem Link:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/string-gfg-160/problem/non-repeating-character-1587115620
 
 class Solution {
