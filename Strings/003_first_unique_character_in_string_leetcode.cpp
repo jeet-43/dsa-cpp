@@ -1,7 +1,7 @@
 // Problem: first non repeating character
 // Approach: by storing indices (one traversal)
 // Time Complexity: O(n)
-// Space Complexity: O(1)
+// Space Complexity: O(MAX_CHAR)
 // Problem Link:https://leetcode.com/problems/first-unique-character-in-a-string/description/
 class Solution {
 public:
