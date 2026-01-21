@@ -1,4 +1,4 @@
-// Problem: rotate string
+// Problem: shortest palindrome
 // Approach: KMP algo
 // Time Complexity: O(n)
 // Space Complexity: O(n)
