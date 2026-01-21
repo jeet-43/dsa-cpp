@@ -2,7 +2,7 @@
 // Approach: using binary search
 // Time Complexity: O(log n)
 // Space Complexity: O(1)
-// Problem Link:https://leetcode.com/problems/3sum/description/
+// Problem Link:https://leetcode.com/problems/find-peak-element/
 
 class Solution {
 public:
