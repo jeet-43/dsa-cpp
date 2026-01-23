@@ -1,4 +1,4 @@
-// Problem: Count all the triplets with given sum in sorted arrat
+// Problem: Count all the triplets with given sum in sorted array
 // Approach: Two Pointers Techinique
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
