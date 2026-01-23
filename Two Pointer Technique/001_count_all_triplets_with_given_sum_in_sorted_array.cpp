@@ -1,5 +1,5 @@
 // Problem: Count all the triplets with given sum in sorted arrat
-// Approach: Two Pointer Techinique
+// Approach: Two Pointers Techinique
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
 // Problem Link:https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-gfg-160/problem/count-all-triplets-with-given-sum-in-sorted-array
