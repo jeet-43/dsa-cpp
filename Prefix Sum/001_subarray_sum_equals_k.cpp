@@ -2,7 +2,7 @@
 // Approach: Prefix Sum + Hashing
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// Problem Link:https://leetcode.com/problems/subarray-sum-equals-k/submissions/1912387474/
+// Problem Link:https://leetcode.com/problems/subarray-sum-equals-k/description/
 
 class Solution {
 public:
