@@ -1,7 +1,7 @@
 // Problem:Subarray Sums Divisible By K
 // Approach: Prefix Sum
-// Time Complexity: O(n log n)
-// Space Complexity: O(1)
+// Time Complexity: O(n)
+// Space Complexity: O(k)
 // Problem Link:https://leetcode.com/problems/subarray-sums-divisible-by-k/description/
 
 class Solution {
