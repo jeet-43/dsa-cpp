@@ -2,7 +2,7 @@
 // Approach: Prefix Sum + Hashing
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// Problem Link:https://leetcode.com/problems/contiguous-array/submissions/1912394679/
+// Problem Link:https://leetcode.com/problems/contiguous-array/
 
 class Solution {
 public:
