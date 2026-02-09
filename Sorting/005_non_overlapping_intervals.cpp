@@ -1,4 +1,4 @@
-// Problem: Non-Overlaping Intervals
+// Problem:  Non-Overlaping Intervals
 // Approach: Sorting + Greedy
 // Time Complexity: O(n log n)
 // Space Complexity: O(n)
