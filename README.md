@@ -6,7 +6,6 @@
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://github.com/jeet-43/dsa-cpp)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Jeet__16-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Jeet_16/)
-[![Coding Blocks](https://img.shields.io/badge/Course-Coding%20Blocks-E94057?style=for-the-badge&logo=bookstack&logoColor=white)](https://github.com/jeet-43/dsa-cpp)
 
 > *Every problem solved is a pattern learned. Every pattern learned is an interview closer.*
 
