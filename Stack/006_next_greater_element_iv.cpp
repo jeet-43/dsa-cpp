@@ -3,40 +3,34 @@
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 // Problem Link:https://leetcode.com/problems/next-greater-element-iv/description/
-
 class Solution {
 public:
-    vector<int> maxOfMin(vector<int>& arr) {
-        int n = arr.size();
-        vector<int> left(n), right(n);
-        stack<int> st;
-        for (int i = 0; i < n; i++) {
-            while (!st.empty() && arr[st.top()] >= arr[i])
-                st.pop();
-            left[i] = st.empty() ? -1 : st.top();
-            st.push(i);
-        }
-        while (!st.empty()) st.pop();
+    vector<int> secondGreaterElement(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> ans(n, -1);
 
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.empty() && arr[st.top()] >= arr[i])
-                st.pop();
-            right[i] = st.empty() ? n : st.top();
-            st.push(i);
-        }
-
-        vector<int> ans(n + 1, 0);
+        stack<int> st1, st2;
 
         for (int i = 0; i < n; i++) {
-            int len = right[i] - left[i] - 1;
-            ans[len] = max(ans[len], arr[i]);
+            while (!st2.empty() && nums[st2.top()] < nums[i]) {
+                ans[st2.top()] = nums[i];
+                st2.pop();
+            }
+
+            stack<int> temp;
+            while (!st1.empty() && nums[st1.top()] < nums[i]) {
+                temp.push(st1.top());
+                st1.pop();
+            }
+
+            while (!temp.empty()) {
+                st2.push(temp.top());
+                temp.pop();
+            }
+
+            st1.push(i);
         }
 
-        for (int i = n - 1; i >= 1; i--) {
-            ans[i] = max(ans[i], ans[i + 1]);
-        }
-
-        ans.erase(ans.begin()); 
         return ans;
     }
 };
