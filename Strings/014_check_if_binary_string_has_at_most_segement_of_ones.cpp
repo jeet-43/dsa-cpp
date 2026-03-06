@@ -2,7 +2,7 @@
 // Approach: Scan
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-// Problem Link:https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/?envType=daily-question&envId=2026-03-05
+// Problem Link:https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/?envType=daily-question&envId=2026-03-06
 
 class Solution {
 public:
