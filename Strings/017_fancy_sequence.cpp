@@ -1,0 +1,42 @@
+// Problem: Fancy Sequence 
+// Approach: Lazy Affine Transformation
+// Time Complexity: O(1)
+// Space Complexity: O(n)
+// Problem Link: https://leetcode.com/problems/fancy-sequence/description/?envType=daily-question&envId=2026-03-15
+
+class Fancy {
+public:
+    const long MOD = 1e9+7;
+    vector<long> raw;
+    long mult=1, add=0;
+
+    long modinv(long x){
+        long res=1,p=MOD-2;
+        while(p){
+            if(p&1) res=res*x%MOD;
+            x=x*x%MOD;
+            p>>=1;
+        }
+        return res;
+    }
+
+    void append(int val){
+        long base=(val-add)%MOD;
+        base=base*modinv(mult)%MOD;
+        raw.push_back((base+MOD)%MOD);
+    }
+
+    void addAll(int inc){
+        add=(add+inc)%MOD;
+    }
+
+    void multAll(int m){
+        mult=mult*m%MOD;
+        add=add*m%MOD;
+    }
+
+    int getIndex(int idx){
+        if(idx>=raw.size()) return -1;
+        return (raw[idx]*mult+add)%MOD;
+    }
+};
